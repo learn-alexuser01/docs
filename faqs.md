@@ -208,6 +208,12 @@ If you have added a text element in your visualization and you want to include a
 You can check an example [here](http://www.cartodb.com).
 {% endhighlight %}
 
+### How can I change the position of an annotation item?
+
+Annotation items will always be placed where you set them in the map, unlike the rest of elements which are placed with respect to the borders of the map (as the text or image elements): an annotation works like a pushpin.
+
+You can change the position of the annotation label by ussing the alignment buttons which appear next to the font type. This option will allow you to place your labels to the right or to the left of the position that you have selected.
+
 ### How do I remove the CartoDB logo from my map?
 
 All maps created with CartoDB have our “Powered by CartoDB” logo in the bottom left corner by default. If your account uses our Coronelli, Mercator, or Enterprise plans, you have the option to remove this branding. Just click on the Options button in your Map View and toggle CartoDB Logo to it’s gray OFF state. "Powered by CartoDB" will no longer appear in your visualization.
